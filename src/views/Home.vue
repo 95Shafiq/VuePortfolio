@@ -15,26 +15,30 @@
             </p>
             <Nav />
             <div class="flex flex-row gap-5 mt-6 text-3xl">
-                <router-link
+                <a
                     class="hover:text-sky-600 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
-                    to="https://www.twitter.com/xMorsi/"
+                    href="https://www.twitter.com/xMorsi/"
+                    target="_blank"
                     ><fa :icon="['fab', 'twitter']"
-                /></router-link>
-                <router-link
+                /></a>
+                <a
                     class="hover:text-blue-900 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
-                    to="https://www.facebook.com/xMorsi/"
+                    href="https://www.facebook.com/xMorsi/"
+                    target="_blank"
                     ><fa :icon="['fab', 'facebook']"
-                /></router-link>
-                <router-link
+                /></a>
+                <a
                     class="hover:text-purple-700 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
-                    to="https://github.com/95Shafiq"
+                    href="https://github.com/95Shafiq"
+                    target="_blank"
                     ><fa :icon="['fab', 'github']"
-                /></router-link>
-                <router-link
+                /></a>
+                <a
                     class="hover:text-blue-700 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
-                    to="https://www.linkedin.com/in/omargharieb/"
+                    href="https://www.linkedin.com/in/omargharieb/"
+                    target="_blank"
                     ><fa :icon="['fab', 'linkedin']"
-                /></router-link>
+                /></a>
             </div>
         </div>
     </div>
