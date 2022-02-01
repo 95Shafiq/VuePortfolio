@@ -198,7 +198,7 @@
                 </div>
             </div>
             <div class="section mt-12">
-                <h2 class="section-head mb-4">Iterests</h2>
+                <h2 class="section-head">Iterests</h2>
                 <div class="icon-box grid grid-cols-4 gap-4">
                     <div>
                         <span
@@ -253,10 +253,145 @@
             <div class="section">
                 <h2 class="section-head">Testmonials</h2>
                 <div class="grid grid-cols-4 gap-4">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div class="testmonial-box col-span-2 bg-violet-600">
+                        <div class="testmonial-head">
+                            <img
+                                class="w-16 h-16 object-cover rounded-full mr-4"
+                                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                alt="alt-pfp"
+                            />
+                            <div class="flex flex-col text-lg leading-6">
+                                <h2 class="font-semibold">Tim Horton</h2>
+                                <p class="text-sm">Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="testmonial-content">
+                            <p class="text-md mt-2 font-semibold">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repudiandae possimus aut
+                                numquam perspiciatis quam eos dolore itaque ab
+                                architecto molestias?
+                            </p>
+                            <p class="text-sm mt-3">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptates non aliquam quas
+                                recusandae perspiciatis iure illo, quae natus
+                                assumenda itaque vel maiores quod deleniti sunt
+                                corrupti iste earum repellat nemo! Nihil
+                                blanditiis nobis dolorum ut.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testmonial-box bg-slate-700">
+                        <div class="testmonial-head">
+                            <img
+                                class="w-16 h-16 object-cover rounded-full mr-4"
+                                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                alt="alt-pfp"
+                            />
+                            <div class="flex flex-col text-lg leading-6">
+                                <h2 class="font-semibold">Zac Smith</h2>
+                                <p class="text-sm">Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="testmonial-content">
+                            <p class="text-md mt-2 font-semibold">
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Provident recusandae dolorum
+                                rerum.
+                            </p>
+                            <p class="text-sm mt-3">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptates non aliquam quas
+                                recusandae perspiciatis iure illo.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="testmonial-box row-span-2 text-slate-800 bg-slate-50"
+                    >
+                        <div class="testmonial-head">
+                            <img
+                                class="w-16 h-16 object-cover rounded-full mr-4"
+                                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                alt="alt-pfp"
+                            />
+                            <div class="flex flex-col text-lg leading-6">
+                                <h2 class="font-semibold">Jane Doe</h2>
+                                <p class="text-sm">Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="testmonial-content">
+                            <p class="text-md mt-2 font-semibold">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repudiandae possimus aut
+                                numquam perspiciatis quam eos dolore itaque ab
+                                architecto molestias?
+                            </p>
+                            <p class="text-sm mt-3">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptates non aliquam quas
+                                recusandae perspiciatis iure illo, quae natus
+                                assumenda itaque vel maiores quod deleniti sunt
+                                corrupti iste earum repellat nemo! Nihil
+                                blanditiis nobis dolorum ut.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testmonial-box text-slate-800 bg-slate-50">
+                        <div class="testmonial-head">
+                            <img
+                                class="w-16 h-16 object-cover rounded-full mr-4"
+                                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                alt="alt-pfp"
+                            />
+                            <div class="flex flex-col text-lg leading-6">
+                                <h2 class="font-semibold">Andy Docks</h2>
+                                <p class="text-sm">Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="testmonial-content">
+                            <p class="text-md mt-2 font-semibold">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit.
+                            </p>
+                            <p class="text-sm mt-3">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptates non aliquam quas
+                                recusandae perspiciatis iure illo, quae natus
+                                assumenda itaque vel maiores.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testmonial-box col-span-2 bg-slate-900">
+                        <div class="testmonial-head">
+                            <img
+                                class="w-16 h-16 object-cover rounded-full mr-4"
+                                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                                alt="alt-pfp"
+                            />
+                            <div class="flex flex-col text-lg leading-6">
+                                <h2 class="font-semibold">Sam Cable</h2>
+                                <p class="text-sm">Lorem, ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="testmonial-content">
+                            <p class="text-md mt-2 font-semibold">
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Repudiandae possimus aut
+                                numquam perspiciatis quam eos dolore itaque ab
+                                architecto molestias?
+                            </p>
+                            <p class="text-sm mt-3">
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Voluptates non aliquam quas
+                                recusandae perspiciatis iure illo, quae natus
+                                assumenda itaque vel maiores quod deleniti sunt
+                                corrupti iste earum repellat nemo! Nihil
+                                blanditiis nobis dolorum ut.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -275,7 +410,7 @@ components: {
     @apply mb-8;
 }
 .section-head {
-    @apply uppercase font-medium text-gray-400;
+    @apply uppercase font-medium text-gray-400 mb-4;
 }
 .section-head::after {
     content: '';
@@ -327,5 +462,13 @@ components: {
 }
 .icon-box div h3 {
     @apply text-lg font-medium;
+}
+
+.testmonial-box {
+    @apply p-4 rounded;
+}
+
+.testmonial-head {
+    @apply flex flex-row items-center;
 }
 </style>

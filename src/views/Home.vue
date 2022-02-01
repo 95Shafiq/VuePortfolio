@@ -16,25 +16,25 @@
             <Nav />
             <div class="flex flex-row gap-5 mt-6 text-3xl">
                 <a
-                    class="hover:text-sky-600 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+                    class="hover:text-sky-600 hover:animate-bounce transition ease-in-out delay-150 duration-300"
                     href="https://www.twitter.com/xMorsi/"
                     target="_blank"
                     ><fa :icon="['fab', 'twitter']"
                 /></a>
                 <a
-                    class="hover:text-blue-900 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+                    class="hover:text-blue-900 hover:animate-bounce transition ease-in-out delay-150 duration-300"
                     href="https://www.facebook.com/xMorsi/"
                     target="_blank"
                     ><fa :icon="['fab', 'facebook']"
                 /></a>
                 <a
-                    class="hover:text-purple-700 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+                    class="hover:text-purple-700 hover:animate-bounce transition ease-in-out delay-150 duration-300"
                     href="https://github.com/95Shafiq"
                     target="_blank"
                     ><fa :icon="['fab', 'github']"
                 /></a>
                 <a
-                    class="hover:text-blue-700 transition ease-in-out delay-150 hover:-translate-y-1 duration-300"
+                    class="hover:text-blue-700 hover:animate-bounce transition ease-in-out delay-150 duration-300"
                     href="https://www.linkedin.com/in/omargharieb/"
                     target="_blank"
                     ><fa :icon="['fab', 'linkedin']"
