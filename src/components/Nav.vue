@@ -4,7 +4,9 @@
         <router-link class="nav-link" :to="{ name: 'About' }"
             >About</router-link
         >
-        <router-link class="nav-link" to="#">Resume</router-link>
+        <router-link class="nav-link" :to="{ name: 'Resume' }"
+            >Resume</router-link
+        >
         <router-link class="nav-link" to="#">Services</router-link>
         <router-link class="nav-link" to="#">Portfolio </router-link>
         <router-link class="nav-link" to="#">Contact </router-link>

@@ -45,17 +45,11 @@
 </template>
 
 <script setup>
-import { computed } from 'vue'
-import { useStore } from 'vuex'
 import Nav from '../components/Nav.vue'
 
 components: {
     Nav
 }
-const store = useStore()
-const name = computed(() => {
-    return store.state.user.name
-})
 </script>
 
-<style></style>
+<style scoped></style>
