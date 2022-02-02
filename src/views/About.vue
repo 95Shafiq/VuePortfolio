@@ -1,13 +1,11 @@
 <template>
     <div>
-        <div
-            class="w-full bg-zinc-900 bg-opacity-90 fixed top-0 drop-shadow-sm"
-        >
+        <div class="w-full bg-black bg-opacity-90 fixed top-0 drop-shadow-sm">
             <div
                 class="flex justify-between items-center max-w-5xl mx-auto px-6 py-4"
             >
                 <div
-                    class="text-4xl font-bold transition ease-in-out delay-150 hover:text-green-500 hover:translate-x-1 duration-300"
+                    class="text-4xl font-bold hover:text-green-500 animate__animated hover:animate__bounce"
                 >
                     <router-link :to="{ name: 'Home' }"
                         >Omar Gharieb</router-link
@@ -18,9 +16,7 @@
                 </div>
             </div>
         </div>
-        <div
-            class="max-w-5xl mx-auto mt-24 mb-12 p-6 bg-zinc-900 bg-opacity-90"
-        >
+        <div class="max-w-5xl mx-auto mt-24 mb-12 p-6 bg-black bg-opacity-90">
             <div class="section">
                 <h2 class="section-head">About</h2>
                 <p class="uppercase text-4xl font-bold mb-4">
@@ -409,9 +405,13 @@ components: {
 .section {
     @apply mb-8;
 }
+.section:last-child {
+    @apply mb-0;
+}
 .section-head {
     @apply uppercase font-medium text-gray-400 mb-4;
 }
+
 .section-head::after {
     content: '';
     width: 120px;

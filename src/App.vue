@@ -1,5 +1,13 @@
 <template>
-    <router-view />
+    <router-view v-slot="{ Component }">
+        <transition
+            enter-active-class="animate__animated animate__fadeIn"
+            leave-active-class="animate__animated animate__fadeIn"
+            mode="out-in"
+        >
+            <component :is="Component" />
+        </transition>
+    </router-view>
     <span class="fixed bottom-2 right-2 text-md"
         >Developed by
         <a
