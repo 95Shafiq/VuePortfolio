@@ -8,8 +8,8 @@
             </h1>
             <p class="text-3xl mb-6">
                 I'm a passionate
-                <span class="border-b-2 border-green-800"
-                    >Front-End Developer</span
+                <span class="border-b-2 border-green-500 font-medium"
+                    >Frontend Engineer</span
                 >
                 from Cairo
             </p>

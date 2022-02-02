@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="w-full bg-black bg-opacity-90 fixed top-0 drop-shadow-sm">
+        <div class="w-full bg-black bg-opacity-90 fixed top-0 z-10">
             <div
-                class="flex justify-between items-center max-w-5xl mx-auto px-6 py-4"
+                class="flex justify-between items-center max-w-6xl mx-auto px-6 py-4"
             >
                 <div class="text-4xl font-bold active:text-green-500">
                     <router-link :to="{ name: 'Home' }"
@@ -14,7 +14,7 @@
                 </div>
             </div>
         </div>
-        <div class="max-w-5xl mx-auto mt-24 mb-12 p-6 bg-black bg-opacity-90">
+        <div class="max-w-6xl mx-auto mt-24 mb-12 p-6 bg-black bg-opacity-90">
             <router-view v-slot="{ Component, route }">
                 <transition
                     :enter-active-class="route.meta.enterClass"

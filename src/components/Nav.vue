@@ -19,4 +19,10 @@
 .nav-link {
     @apply border-b-2 border-transparent hover:border-b-2 hover:border-slate-100 transition ease-in-out delay-150 hover:text-green-500 hover:-translate-y-1 duration-300;
 }
+.nav-link:hover {
+    @apply border-b-2 border-slate-100 text-green-500 -translate-y-1;
+}
+a.router-link-exact-active {
+    @apply font-semibold;
+}
 </style>
