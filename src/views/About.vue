@@ -4,9 +4,7 @@
             <div
                 class="flex justify-between items-center max-w-5xl mx-auto px-6 py-4"
             >
-                <div
-                    class="text-4xl font-bold hover:text-green-500 animate__animated hover:animate__bounce"
-                >
+                <div class="text-4xl font-bold hover:text-green-500">
                     <router-link :to="{ name: 'Home' }"
                         >Omar Gharieb</router-link
                     >

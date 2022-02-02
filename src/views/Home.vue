@@ -3,9 +3,7 @@
         class="flex justify-center items-center h-screen flex-col absolute left-40"
     >
         <div>
-            <h1
-                class="text-6xl mb-5 font-bold animate__animated hover:animate__fadeIn"
-            >
+            <h1 class="text-6xl mb-5 font-bold">
                 <router-link :to="{ name: 'Home' }">Omar Gharieb</router-link>
             </h1>
             <p class="text-3xl mb-6">
