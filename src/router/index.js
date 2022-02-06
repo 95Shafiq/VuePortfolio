@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Me from '../views/Me.vue'
 import About from '../views/About.vue'
 import Resume from '../views/Resume.vue'
+import Services from '../views/Services.vue'
 
 const routes = [
     {
@@ -38,6 +39,17 @@ const routes = [
                 path: 'resume',
                 name: 'Resume',
                 component: Resume,
+                meta: {
+                    enterClass:
+                        'animate__animated animate__fadeIn animate__faster',
+                    leaveClass:
+                        'animate__animated animate__fadeOut animate__faster',
+                },
+            },
+            {
+                path: 'services',
+                name: 'Services',
+                component: Services,
                 meta: {
                     enterClass:
                         'animate__animated animate__fadeIn animate__faster',

@@ -10,7 +10,7 @@
                     >
                 </div>
                 <div>
-                    <Nav />
+                    <TheNavigation />
                 </div>
             </div>
         </div>
@@ -29,9 +29,9 @@
 </template>
 
 <script setup>
-import Nav from '../components/Nav.vue'
+import TheNavigation from '../components/TheNavigation.vue'
 components: {
-    Nav
+    TheNavigation
 }
 </script>
 

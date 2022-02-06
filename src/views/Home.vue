@@ -13,7 +13,7 @@
                 >
                 from Cairo
             </p>
-            <Nav />
+            <TheNavigation />
             <div class="flex flex-row gap-5 mt-6 text-3xl">
                 <a
                     class="hover:text-sky-600 hover:animate-bounce transition ease-in-out delay-150 duration-300"
@@ -45,10 +45,10 @@
 </template>
 
 <script setup>
-import Nav from '../components/Nav.vue'
+import TheNavigation from '../components/TheNavigation.vue'
 
 components: {
-    Nav
+    TheNavigation
 }
 </script>
 
