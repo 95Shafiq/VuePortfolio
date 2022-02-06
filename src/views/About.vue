@@ -2,7 +2,7 @@
     <div>
         <div class="section">
             <h2 class="section-head">About</h2>
-            <p class="uppercase text-4xl font-bold mb-4">Learn more about me</p>
+            <p class="secondary-title">Learn more about me</p>
             <div class="flex mb-12">
                 <img
                     class="w-80 h-96"

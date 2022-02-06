@@ -2,7 +2,7 @@
     <div>
         <div class="section">
             <h2 class="section-head">Resume</h2>
-            <p class="uppercase text-4xl font-bold mb-4">Check my Resume</p>
+            <p class="secondary-title">Check my Resume</p>
         </div>
         <div class="section">
             <div class="grid">

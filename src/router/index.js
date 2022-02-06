@@ -4,6 +4,7 @@ import Me from '../views/Me.vue'
 import About from '../views/About.vue'
 import Resume from '../views/Resume.vue'
 import Services from '../views/Services.vue'
+import Gallery from '../views/Gallery.vue'
 
 const routes = [
     {
@@ -50,6 +51,17 @@ const routes = [
                 path: 'services',
                 name: 'Services',
                 component: Services,
+                meta: {
+                    enterClass:
+                        'animate__animated animate__fadeIn animate__faster',
+                    leaveClass:
+                        'animate__animated animate__fadeOut animate__faster',
+                },
+            },
+            {
+                path: 'gallery',
+                name: 'Gallery',
+                component: Gallery,
                 meta: {
                     enterClass:
                         'animate__animated animate__fadeIn animate__faster',

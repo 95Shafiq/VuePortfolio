@@ -31,6 +31,10 @@ body {
     margin: 4px 10px;
 }
 
+.secondary-title {
+    @apply uppercase text-4xl font-bold mb-6;
+}
+
 .card {
     @apply bg-zinc-800 bg-opacity-75 w-3/12 px-8 py-4 text-center relative;
 }

@@ -1,7 +1,7 @@
 <template>
     <div class="section">
         <h2 class="section-head">Services</h2>
-        <p class="uppercase text-4xl font-bold mb-4">My Services</p>
+        <p class="secondary-title">My Services</p>
         <div
             class="flex justify-center items-center flex-wrap mx-auto mt-5 gap-4"
         >
