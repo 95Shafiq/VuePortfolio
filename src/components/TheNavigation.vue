@@ -13,7 +13,9 @@
         <router-link class="nav-link" :to="{ name: 'Gallery' }"
             >Gallery
         </router-link>
-        <router-link class="nav-link" to="#">Contact </router-link>
+        <router-link class="nav-link" :to="{ name: 'Contact' }"
+            >Contact
+        </router-link>
     </div>
 </template>
 
