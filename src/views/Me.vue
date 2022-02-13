@@ -2,9 +2,9 @@
     <div>
         <div class="w-full bg-black bg-opacity-90 fixed top-0 z-10">
             <div
-                class="flex justify-between items-center max-w-6xl mx-auto px-6 py-4"
+                class="flex justify-between items-center max-w-6xl mx-auto px-4 py-4"
             >
-                <div class="text-4xl font-bold active:text-green-500">
+                <div class="text-4xl font-bold sm:text-3xl">
                     <router-link :to="{ name: 'Home' }"
                         >Omar Gharieb</router-link
                     >
