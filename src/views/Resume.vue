@@ -5,7 +5,7 @@
             <p class="secondary-title">Check my Resume</p>
         </div>
         <div class="section">
-            <div class="grid">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div>
                     <h2 class="resume-title">Sumary</h2>
                     <div class="resume-item">
@@ -23,7 +23,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row-start-2">
+                <div class="lg:row-start-2">
                     <h2 class="resume-title">Education</h2>
                     <div class="resume-item">
                         <span class="resume-header"
@@ -42,7 +42,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-start-2 row-start-1 row-span-3">
+                <div class="lg:col-start-2 lg:row-start-1 lg:row-span-3">
                     <h2 class="resume-title">Professional Experience</h2>
                     <div class="resume-item">
                         <span class="resume-header"

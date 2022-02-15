@@ -2,10 +2,8 @@
     <div class="section">
         <h2 class="section-head">Services</h2>
         <p class="secondary-title">My Services</p>
-        <div
-            class="flex justify-center items-center flex-wrap mx-auto mt-5 gap-4"
-        >
-            <div class="card-wrapper group">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 gap-4">
+            <div class="card-wrapper">
                 <span class="card-wrapper-span"
                     ><fa class="fa-icon" :icon="['fab', 'blogger-b']"
                 /></span>
@@ -58,7 +56,6 @@
 <style lang="scss" scoped>
 .section {
     .card-wrapper {
-        width: 32%;
         @apply bg-zinc-800 bg-opacity-75 px-8 py-12 text-center relative hover:-translate-y-2 transition-all ease-in-out;
 
         * {

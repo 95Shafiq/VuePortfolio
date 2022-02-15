@@ -3,7 +3,7 @@
         <h2 class="section-head">Gallery</h2>
         <p class="secondary-title">My Previous Projects</p>
         <div class="flex flex-col justify-center items-center mb-6">
-            <div class="flex gap-2">
+            <div class="flex gap-1">
                 <button class="gallery-btn" @click.prevent="allFilter">
                     All
                 </button>
@@ -234,6 +234,6 @@ function cardFilter() {
 }
 
 .gallery-preview > img {
-    @apply object-cover w-full h-56;
+    @apply object-cover w-full h-48 md:h-56;
 }
 </style>

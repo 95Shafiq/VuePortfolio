@@ -20,25 +20,44 @@
     <button
         @click="showSidebar = !showSidebar"
         class="flex absolute top-6 right-4 text-lg lg:hidden z-10"
-        :class="{ '': showSidebar }"
     >
         <fa :icon="['fas', 'bars']" />
     </button>
     <div class="mob-nav" :class="{ 'translate-x-full': !showSidebar }">
-        <router-link class="nav-link" :to="{ name: 'Home' }">Home</router-link>
-        <router-link class="nav-link" :to="{ name: 'About' }"
+        <router-link
+            @click="showSidebar = !showSidebar"
+            class="nav-link"
+            :to="{ name: 'Home' }"
+            >Home</router-link
+        >
+        <router-link
+            @click="showSidebar = !showSidebar"
+            class="nav-link"
+            :to="{ name: 'About' }"
             >About</router-link
         >
-        <router-link class="nav-link" :to="{ name: 'Resume' }"
+        <router-link
+            @click="showSidebar = !showSidebar"
+            class="nav-link"
+            :to="{ name: 'Resume' }"
             >Resume</router-link
         >
-        <router-link class="nav-link" :to="{ name: 'Services' }"
+        <router-link
+            @click="showSidebar = !showSidebar"
+            class="nav-link"
+            :to="{ name: 'Services' }"
             >Services</router-link
         >
-        <router-link class="nav-link" :to="{ name: 'Gallery' }"
+        <router-link
+            @click="showSidebar = !showSidebar"
+            class="nav-link"
+            :to="{ name: 'Gallery' }"
             >Gallery
         </router-link>
-        <router-link class="nav-link" :to="{ name: 'Contact' }"
+        <router-link
+            @click="showSidebar = !showSidebar"
+            class="nav-link"
+            :to="{ name: 'Contact' }"
             >Contact
         </router-link>
     </div>
