@@ -3,9 +3,9 @@
         <div class="section" id="about">
             <h2 class="section-head">About</h2>
             <p class="secondary-title">Learn more about me</p>
-            <div class="flex mb-12">
+            <div class="md:flex mb-12">
                 <img
-                    class="w-80 h-96"
+                    class="w-full md:w-80 md:h-96 object-cover mb-4"
                     src="https://i.ibb.co/mvg0gbq/141929228-2842636065954750-8001183048998547824-n.jpg"
                     alt="pfp"
                 />
@@ -17,7 +17,7 @@
                         I am interested in any relative postion either it's
                         full-time or part-time.
                     </p>
-                    <div class="grid grid-cols-2 gap-2 mb-4">
+                    <div class="grid lg:grid-cols-2 gap-2 mb-4">
                         <p>
                             <fa
                                 icon="chevron-right"
@@ -77,15 +77,15 @@
                     </p>
                 </div>
             </div>
-            <div class="flex justify-center items-center mx-auto mt-5 gap-4">
-                <div class="card">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 mx-auto mt-5 gap-4">
+                <div class="card lg:col-start-2">
                     <span class="card-span"
                         ><fa class="card-icon" :icon="['far', 'smile']"
                     /></span>
                     <p class="card-count">75+</p>
                     <p>Happy Clients</p>
                 </div>
-                <div class="card">
+                <div class="card lg:col-start-3">
                     <span class="card-span"
                         ><fa
                             style="right: 25%"
@@ -158,7 +158,9 @@
         </div> -->
         <div class="section" id="interests">
             <h2 class="section-head">Skills</h2>
-            <div class="icon-box grid grid-cols-4 gap-4">
+            <div
+                class="icon-box grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"
+            >
                 <div>
                     <span
                         ><fa class="text-orange-500" :icon="['fab', 'html5']"
@@ -217,8 +219,8 @@
         </div>
         <div class="section" id="testmonials">
             <h2 class="section-head">Testmonials</h2>
-            <div class="grid grid-cols-4 gap-4">
-                <div class="testmonial-box col-span-2 bg-violet-600">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="testmonial-box lg:col-span-2 bg-violet-600">
                     <div class="testmonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
@@ -323,7 +325,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="testmonial-box col-span-2 bg-slate-900">
+                <div class="testmonial-box lg:col-span-2 bg-slate-900">
                     <div class="testmonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
@@ -359,7 +361,7 @@
 
 <style lang="scss">
 .card {
-    @apply bg-zinc-800 bg-opacity-75 w-3/12 px-8 py-4 text-center relative;
+    @apply bg-zinc-800 bg-opacity-75 px-8 py-4 text-center relative;
 }
 .card-span {
     position: absolute;

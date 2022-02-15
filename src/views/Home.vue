@@ -1,7 +1,5 @@
 <template>
-    <div
-        class="flex justify-center items-center h-screen flex-col absolute left-40"
-    >
+    <div class="home-container">
         <div>
             <h1 class="text-6xl mb-5 font-bold">
                 <router-link :to="{ name: 'Home' }">Omar Gharieb</router-link>
@@ -52,4 +50,8 @@ components: {
 }
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.home-container {
+    @apply flex justify-center items-center h-screen flex-col absolute left-40;
+}
+</style>

@@ -4,7 +4,7 @@
             <div
                 class="flex justify-between items-center max-w-6xl mx-auto px-4 py-4"
             >
-                <div class="text-4xl font-bold sm:text-3xl">
+                <div class="font-bold text-2xl sm:text-3xl">
                     <router-link :to="{ name: 'Home' }"
                         >Omar Gharieb</router-link
                     >
