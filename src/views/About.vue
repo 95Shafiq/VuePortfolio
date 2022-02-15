@@ -22,18 +22,6 @@
                             <fa
                                 icon="chevron-right"
                                 class="mr-1 text-green-500"
-                            /><span class="font-bold">Website: </span>
-                            <a
-                                class="underline"
-                                href="www.omargharieb.tk"
-                                target="_blank"
-                                >www.omargharieb.tk</a
-                            >
-                        </p>
-                        <p>
-                            <fa
-                                icon="chevron-right"
-                                class="mr-1 text-green-500"
                             /><span class="font-bold">Degree:</span> BSc in
                             Computer Science
                         </p>

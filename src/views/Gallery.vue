@@ -18,16 +18,17 @@
                 </button>
             </div>
         </div>
-        <div class="flex flex-row flex-wrap justify-center items-center gap-6">
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-12"
+        >
             <div
                 v-if="app"
                 class="gallery-preview animate__animated animate__fadeIn"
             >
                 <span>Coffee</span
-                ><img
-                    src="https://image.freepik.com/free-photo/morning-with-turkish-coffee-brewing_1157-8839.jpg?w=740"
-                    alt=""
-                />
+                ><a href="https://www.scarlet-tm.com/" target="_blank"
+                    ><img src="https://files.catbox.moe/f0tbg4.jpg" alt=""
+                /></a>
             </div>
             <div
                 v-if="card"
@@ -206,16 +207,6 @@ function cardFilter() {
 </script>
 
 <style lang="scss" scoped>
-// .app {
-//     @apply bg-red-500;
-// }
-// .card {
-//     @apply bg-cyan-500;
-// }
-// .web {
-//     @apply bg-lime-500;
-// }
-
 .gallery-btn {
     @apply text-sm font-bold px-5 py-2 bg-zinc-900 bg-opacity-75 inline-block mb-2 rounded;
 }
@@ -227,13 +218,13 @@ function cardFilter() {
 
 .gallery-preview {
     @apply flex-none items-stretch relative;
-}
 
-.gallery-preview > span {
-    @apply absolute py-2 px-4 bg-zinc-400 bg-opacity-75;
-}
+    span {
+        @apply absolute py-2 px-4 bg-zinc-400 bg-opacity-75;
+    }
 
-.gallery-preview > img {
-    @apply object-cover w-full h-48 md:h-56;
+    img {
+        @apply object-cover w-full h-48 md:h-56;
+    }
 }
 </style>

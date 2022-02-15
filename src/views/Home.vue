@@ -1,7 +1,7 @@
 <template>
     <div class="home-container">
         <div>
-            <h1 class="text-6xl mb-5 font-bold">
+            <h1 class="text-6xl 2xl:text-8xl mb-5 font-bold">
                 <router-link :to="{ name: 'Home' }">Omar Gharieb</router-link>
             </h1>
             <p class="text-3xl mb-6">
@@ -52,6 +52,6 @@ components: {
 
 <style lang="scss" scoped>
 .home-container {
-    @apply flex justify-center items-center h-screen p-10 mx-auto flex-col relative lg:-left-52;
+    @apply flex justify-center items-center h-screen p-10 mx-auto break-words flex-col;
 }
 </style>

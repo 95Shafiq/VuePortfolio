@@ -20,6 +20,7 @@
     <button
         @click="showSidebar = !showSidebar"
         class="flex absolute top-6 right-4 text-lg lg:hidden z-10"
+        :class="{ 'text-green-500': showSidebar }"
     >
         <fa :icon="['fas', 'bars']" />
     </button>
