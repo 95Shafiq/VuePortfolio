@@ -15,7 +15,7 @@
             <div class="flex flex-row gap-5 mt-6 text-3xl">
                 <a
                     class="hover:text-sky-600 hover:-translate-y-2 transition ease-in-out delay-150 duration-300"
-                    href="https://www.twitter.com/xMorsi/"
+                    href="https://www.twitter.com/_OmarGharieb/"
                     target="_blank"
                     ><fa :icon="['fab', 'twitter']"
                 /></a>
@@ -52,6 +52,6 @@ components: {
 
 <style lang="scss" scoped>
 .home-container {
-    @apply flex justify-center items-center h-screen p-10 mx-auto break-words flex-col;
+    @apply flex justify-center items-center relative h-screen w-screen p-10 mx-auto break-words flex-col overflow-x-hidden;
 }
 </style>

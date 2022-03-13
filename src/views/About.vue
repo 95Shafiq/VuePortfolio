@@ -11,10 +11,10 @@
                 />
                 <div class="flex flex-col py-1 px-4">
                     <p class="text-3xl font-semibold text-green-500 mb-3">
-                        Vue.js & Tailwind.css Developer
+                        Vue.js & Windi.css Developer
                     </p>
                     <p class="italic mb-4 text-lg">
-                        I am interested in any relative postion either it's
+                        I am interested in any relative position either it's
                         full-time or part-time.
                     </p>
                     <div class="grid lg:grid-cols-2 gap-2 mb-4">
@@ -24,13 +24,6 @@
                                 class="mr-1 text-green-500"
                             /><span class="font-bold">Degree:</span> BSc in
                             Computer Science
-                        </p>
-                        <p>
-                            <fa
-                                icon="chevron-right"
-                                class="mr-1 text-green-500"
-                            /><span class="font-bold">Phone:</span> +20
-                            1016930950
                         </p>
                         <p>
                             <fa
@@ -65,7 +58,7 @@
                     </p>
                 </div>
             </div>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 mx-auto mt-5 gap-4">
+            <!-- <div class="grid md:grid-cols-2 lg:grid-cols-4 mx-auto mt-5 gap-4">
                 <div class="card lg:col-start-2">
                     <span class="card-span"
                         ><fa class="card-icon" :icon="['far', 'smile']"
@@ -83,7 +76,7 @@
                     <p class="card-count">150+</p>
                     <p>Compeleted Projects</p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- <div class="section" id="skills">
             <h2 class="section-head">Skills</h2>
@@ -205,26 +198,24 @@
                 </div>
             </div>
         </div>
-        <div class="section" id="testmonials">
-            <h2 class="section-head">Testmonials</h2>
+        <div class="section" id="testimonials">
+            <h2 class="section-head">Testimonials</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="testmonial-box lg:col-span-2 bg-violet-600">
-                    <div class="testmonial-head">
+                <div class="testimonial-box lg:col-span-2 bg-violet-600">
+                    <div class="testimonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
-                            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                            src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/709dc97c753fc35c3d8c28d52876983f-746463651553287567.2330961/39D3693A-3B0A-4A0A-8EA6-7329D0138189"
                             alt="alt-pfp"
                         />
                         <div class="flex flex-col text-lg leading-6">
-                            <h2 class="font-semibold">Tim Horton</h2>
-                            <p class="text-sm">Lorem, ipsum.</p>
+                            <h2 class="font-semibold">Mutlaq Al-Jared</h2>
+                            <p class="text-sm">Kuwait</p>
                         </div>
                     </div>
-                    <div class="testmonial-content">
+                    <div class="testimonial-content">
                         <p class="text-md mt-2 font-semibold">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Repudiandae possimus aut numquam perspiciatis
-                            quam eos dolore itaque ab architecto molestias?
+                            Omar is the best, I worked with a lot of other people but he always delivers fast and with high quality.. sure will come back
                         </p>
                         <p class="text-sm mt-3">
                             Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -235,8 +226,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="testmonial-box bg-slate-700">
-                    <div class="testmonial-head">
+                <div class="testimonial-box bg-slate-700">
+                    <div class="testimonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
                             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -247,7 +238,7 @@
                             <p class="text-sm">Lorem, ipsum.</p>
                         </div>
                     </div>
-                    <div class="testmonial-content">
+                    <div class="testimonial-content">
                         <p class="text-md mt-2 font-semibold">
                             Lorem ipsum dolor sit, amet consectetur adipisicing
                             elit. Provident recusandae dolorum rerum.
@@ -260,9 +251,9 @@
                     </div>
                 </div>
                 <div
-                    class="testmonial-box row-span-2 text-slate-800 bg-slate-50"
+                    class="testimonial-box row-span-2 text-slate-800 bg-slate-50"
                 >
-                    <div class="testmonial-head">
+                    <div class="testimonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
                             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -273,7 +264,7 @@
                             <p class="text-sm">Lorem, ipsum.</p>
                         </div>
                     </div>
-                    <div class="testmonial-content">
+                    <div class="testimonial-content">
                         <p class="text-md mt-2 font-semibold">
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit. Repudiandae possimus aut numquam perspiciatis
@@ -288,8 +279,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="testmonial-box text-slate-800 bg-slate-50">
-                    <div class="testmonial-head">
+                <div class="testimonial-box text-slate-800 bg-slate-50">
+                    <div class="testimonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
                             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -300,7 +291,7 @@
                             <p class="text-sm">Lorem, ipsum.</p>
                         </div>
                     </div>
-                    <div class="testmonial-content">
+                    <div class="testimonial-content">
                         <p class="text-md mt-2 font-semibold">
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit.
@@ -313,8 +304,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="testmonial-box lg:col-span-2 bg-slate-900">
-                    <div class="testmonial-head">
+                <div class="testimonial-box lg:col-span-2 bg-slate-900">
+                    <div class="testimonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
                             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -325,7 +316,7 @@
                             <p class="text-sm">Lorem, ipsum.</p>
                         </div>
                     </div>
-                    <div class="testmonial-content">
+                    <div class="testimonial-content">
                         <p class="text-md mt-2 font-semibold">
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit. Repudiandae possimus aut numquam perspiciatis
@@ -391,11 +382,11 @@
     @apply text-lg font-medium;
 }
 
-.testmonial-box {
+.testimonial-box {
     @apply p-4 rounded;
 }
 
-.testmonial-head {
+.testimonial-head {
     @apply flex flex-row items-center;
 }
 </style>
