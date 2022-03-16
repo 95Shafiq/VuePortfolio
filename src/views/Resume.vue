@@ -7,7 +7,7 @@
         <div class="section">
             <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div>
-                    <h2 class="resume-title">Sumary</h2>
+                    <h2 class="resume-title">Summary</h2>
                     <div class="resume-item">
                         <span class="resume-header">Omar Gharieb</span>
                         <p class="italic text-lg leading-6">
@@ -101,6 +101,113 @@
                         </ul>
                     </div>
                 </div>
+                <div class="lg:col-span-2 mt-6">
+                    <h2 class="resume-title">Out of the Field Experiences</h2>
+                    <div class="grid grid-cols-2">
+                        <div class="resume-item">
+                            <span class="resume-header"
+                                >Freelancer @ NCIG-Netflix</span
+                            >
+                            <span class="resume-timespan"> 2022 </span>
+                            <p class="italic text-lg leading-6 mb-3">
+                                New Cairo, Cairo
+                            </p>
+                            <ul class="list-disc ml-5">
+                                <li>
+                                    I was part of the production team of a short
+                                    series on Netflix that was aimed to enhance
+                                    and sharpen the productivity of the young
+                                    Arabic writes.
+                                </li>
+                                <li>
+                                    I've managed to work with her Highness
+                                    Shiekha Al-Zain Al-Sabah the Under Secretary
+                                    of the Ministry of Youth in Kuwait.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <span class="resume-header"
+                                >Freelancer @
+                                <a
+                                    href="https://www.iccrom.org/"
+                                    target="_blank"
+                                    class="underline"
+                                    >ICCROM</a
+                                ></span
+                            >
+                            <span class="resume-timespan"> 2021 </span>
+                            <p class="italic text-lg leading-6 mb-3">
+                                New Cairo, Cairo
+                            </p>
+                            <ul class="list-disc ml-5">
+                                <li>
+                                    I've managed to translate the three-day
+                                    online convention about Preservation and
+                                    Restoration of Cultural Property.
+                                </li>
+                                <li>
+                                    I've spent two weeks working nonstop, day
+                                    and night to insure the quality of my work
+                                    and the satisfaction of my client.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <span class="resume-header"
+                                >Freelancer @
+                                <a
+                                    href="https://www.qtv.qa/"
+                                    target="_blank"
+                                    class="underline"
+                                    >Qatar TV</a
+                                ></span
+                            >
+                            <span class="resume-timespan"> 2021 </span>
+                            <p class="italic text-lg leading-6 mb-3">
+                                New Cairo, Cairo
+                            </p>
+                            <ul class="list-disc ml-5">
+                                <li>
+                                    I've translated a full interview with the
+                                    owners of the Blue Saloon, one of the
+                                    biggest luxury retailers in the region.
+                                </li>
+                                <li>
+                                    I did tons of research on the client and
+                                    made sure to choose each and every word I
+                                    used to match the energy and culture of my
+                                    client and well-deliver their passion.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <span class="resume-header"
+                                >Translator and Transcriptionist @
+                                <a
+                                    href="https://shufu.tv"
+                                    target="_blank"
+                                    class="underline"
+                                    >Shufu TV</a
+                                ></span
+                            >
+                            <span class="resume-timespan"> 2018 - 2020 </span>
+                            <p class="italic text-lg leading-6 mb-3">
+                                New Cairo, Cairo
+                            </p>
+                            <ul class="list-disc ml-5">
+                                <li>
+                                    I've assigned the task of transcribing and
+                                    translating more than a couple of Japanese
+                                    animated series (Anime), and deliver it in
+                                    the best way possible to the audience to
+                                    insure they have a great experience and come
+                                    back to our platform.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -119,6 +226,10 @@
 
 .resume-item ul {
     @apply my-4;
+
+    li {
+        @apply mb-3 last:mb-0;
+    }
 }
 
 .resume-item::before {

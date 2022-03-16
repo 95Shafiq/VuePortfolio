@@ -201,7 +201,11 @@
         <div class="section" id="testimonials">
             <h2 class="section-head">Testimonials</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-4">
-                <div class="testimonial-box" v-for="(testimonial, index) in testimonials" :key="index">
+                <div
+                    class="testimonial-box"
+                    v-for="(testimonial, index) in testimonials"
+                    :key="index"
+                >
                     <div class="testimonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
@@ -209,12 +213,18 @@
                             alt="alt-pfp"
                         />
                         <div class="flex flex-col text-lg leading-6">
-                            <h2 class="font-semibold">{{ testimonial.name }}</h2>
-                            <p class="text-sm font-medium">{{ testimonial.country }}</p>
+                            <h2 class="font-semibold">
+                                {{ testimonial.name }}
+                            </h2>
+                            <p class="text-sm font-medium">
+                                {{ testimonial.country }}
+                            </p>
                         </div>
                     </div>
                     <div class="testimonial-content">
-                        <p class="text-lg p-2 mt-2 font-medium">{{ testimonial.body }}</p>
+                        <p class="text-lg p-2 mt-2 font-medium">
+                            {{ testimonial.body }}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -225,41 +235,41 @@
 <script>
 export default {
     data() {
-        return{
+        return {
             testimonials: [
-                { 
+                {
                     imgSrc: 'https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/709dc97c753fc35c3d8c28d52876983f-746463651553287567.2330961/39D3693A-3B0A-4A0A-8EA6-7329D0138189',
                     name: 'Mutlaq Al-Jared',
                     country: 'Kuwait',
                     body: 'Omar is the best, I worked with a lot of other people but he always delivers fast and with high quality.. sure will come back',
                 },
-                { 
+                {
                     imgSrc: 'https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/profile/photos/42308677/original/13612401_1168224636533798_6893057819877577078_n.jpg',
                     name: 'khaled Al-fussail',
                     country: 'Yemen',
                     body: 'A very excellent experience Quick to communicate and understand',
                 },
-                { 
+                {
                     imgSrc: 'https://images.pexels.com/photos/5253574/pexels-photo-5253574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
                     name: 'neverlandqa',
                     country: 'Qatar',
                     body: 'Omar is amazing, a true professional. He responds in the fastest manner and provides high-level services indeed. I highly recommend him and will definitely work with him again. Thank you Omar!',
                 },
-                { 
+                {
                     imgSrc: 'https://images.pexels.com/photos/5253574/pexels-photo-5253574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
                     name: 'Ali Kamal',
                     country: 'Kuwait',
                     body: 'Finished before deadline and smooth no mistakes at all. great working with Omar!',
                 },
-                { 
-                    imgSrc: 'https://images.pexels.com/photos/5253574/pexels-photo-5253574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+                {
+                    imgSrc: 'https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/9fc74e84c06a6ef600b0796b08a6ae8c-1617462506955/afea7e1e-2c7c-4cf1-8191-2a5c2e27f4ac.jpg',
                     name: 'Alex James',
                     country: 'Ireland',
                     body: 'Great Service. Speedy initial reply and project was delivered quickly. Would use again!',
                 },
-            ]
+            ],
         }
-    }
+    },
 }
 </script>
 
@@ -331,9 +341,7 @@ export default {
     }
 
     .testimonial-head {
-    @apply flex flex-row items-center;
+        @apply flex flex-row items-center;
+    }
 }
-}
-
-
 </style>
