@@ -200,135 +200,21 @@
         </div>
         <div class="section" id="testimonials">
             <h2 class="section-head">Testimonials</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div class="testimonial-box lg:col-span-2 bg-violet-600">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-4">
+                <div class="testimonial-box" v-for="(testimonial, index) in testimonials" :key="index">
                     <div class="testimonial-head">
                         <img
                             class="w-16 h-16 object-cover rounded-full mr-4"
-                            src="https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/709dc97c753fc35c3d8c28d52876983f-746463651553287567.2330961/39D3693A-3B0A-4A0A-8EA6-7329D0138189"
+                            :src="testimonial.imgSrc"
                             alt="alt-pfp"
                         />
                         <div class="flex flex-col text-lg leading-6">
-                            <h2 class="font-semibold">Mutlaq Al-Jared</h2>
-                            <p class="text-sm">Kuwait</p>
+                            <h2 class="font-semibold">{{ testimonial.name }}</h2>
+                            <p class="text-sm font-medium">{{ testimonial.country }}</p>
                         </div>
                     </div>
                     <div class="testimonial-content">
-                        <p class="text-md mt-2 font-semibold">
-                            Omar is the best, I worked with a lot of other people but he always delivers fast and with high quality.. sure will come back
-                        </p>
-                        <p class="text-sm mt-3">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptates non aliquam quas recusandae
-                            perspiciatis iure illo, quae natus assumenda itaque
-                            vel maiores quod deleniti sunt corrupti iste earum
-                            repellat nemo! Nihil blanditiis nobis dolorum ut.
-                        </p>
-                    </div>
-                </div>
-                <div class="testimonial-box bg-slate-700">
-                    <div class="testimonial-head">
-                        <img
-                            class="w-16 h-16 object-cover rounded-full mr-4"
-                            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                            alt="alt-pfp"
-                        />
-                        <div class="flex flex-col text-lg leading-6">
-                            <h2 class="font-semibold">Zac Smith</h2>
-                            <p class="text-sm">Lorem, ipsum.</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-content">
-                        <p class="text-md mt-2 font-semibold">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Provident recusandae dolorum rerum.
-                        </p>
-                        <p class="text-sm mt-3">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptates non aliquam quas recusandae
-                            perspiciatis iure illo.
-                        </p>
-                    </div>
-                </div>
-                <div
-                    class="testimonial-box row-span-2 text-slate-800 bg-slate-50"
-                >
-                    <div class="testimonial-head">
-                        <img
-                            class="w-16 h-16 object-cover rounded-full mr-4"
-                            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                            alt="alt-pfp"
-                        />
-                        <div class="flex flex-col text-lg leading-6">
-                            <h2 class="font-semibold">Jane Doe</h2>
-                            <p class="text-sm">Lorem, ipsum.</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-content">
-                        <p class="text-md mt-2 font-semibold">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Repudiandae possimus aut numquam perspiciatis
-                            quam eos dolore itaque ab architecto molestias?
-                        </p>
-                        <p class="text-sm mt-3">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptates non aliquam quas recusandae
-                            perspiciatis iure illo, quae natus assumenda itaque
-                            vel maiores quod deleniti sunt corrupti iste earum
-                            repellat nemo! Nihil blanditiis nobis dolorum ut.
-                        </p>
-                    </div>
-                </div>
-                <div class="testimonial-box text-slate-800 bg-slate-50">
-                    <div class="testimonial-head">
-                        <img
-                            class="w-16 h-16 object-cover rounded-full mr-4"
-                            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                            alt="alt-pfp"
-                        />
-                        <div class="flex flex-col text-lg leading-6">
-                            <h2 class="font-semibold">Andy Docks</h2>
-                            <p class="text-sm">Lorem, ipsum.</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-content">
-                        <p class="text-md mt-2 font-semibold">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit.
-                        </p>
-                        <p class="text-sm mt-3">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptates non aliquam quas recusandae
-                            perspiciatis iure illo, quae natus assumenda itaque
-                            vel maiores.
-                        </p>
-                    </div>
-                </div>
-                <div class="testimonial-box lg:col-span-2 bg-slate-900">
-                    <div class="testimonial-head">
-                        <img
-                            class="w-16 h-16 object-cover rounded-full mr-4"
-                            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                            alt="alt-pfp"
-                        />
-                        <div class="flex flex-col text-lg leading-6">
-                            <h2 class="font-semibold">Sam Cable</h2>
-                            <p class="text-sm">Lorem, ipsum.</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-content">
-                        <p class="text-md mt-2 font-semibold">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Repudiandae possimus aut numquam perspiciatis
-                            quam eos dolore itaque ab architecto molestias?
-                        </p>
-                        <p class="text-sm mt-3">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptates non aliquam quas recusandae
-                            perspiciatis iure illo, quae natus assumenda itaque
-                            vel maiores quod deleniti sunt corrupti iste earum
-                            repellat nemo! Nihil blanditiis nobis dolorum ut.
-                        </p>
+                        <p class="text-lg p-2 mt-2 font-medium">{{ testimonial.body }}</p>
                     </div>
                 </div>
             </div>
@@ -336,7 +222,46 @@
     </div>
 </template>
 
-<script></script>
+<script>
+export default {
+    data() {
+        return{
+            testimonials: [
+                { 
+                    imgSrc: 'https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/709dc97c753fc35c3d8c28d52876983f-746463651553287567.2330961/39D3693A-3B0A-4A0A-8EA6-7329D0138189',
+                    name: 'Mutlaq Al-Jared',
+                    country: 'Kuwait',
+                    body: 'Omar is the best, I worked with a lot of other people but he always delivers fast and with high quality.. sure will come back',
+                },
+                { 
+                    imgSrc: 'https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/profile/photos/42308677/original/13612401_1168224636533798_6893057819877577078_n.jpg',
+                    name: 'khaled Al-fussail',
+                    country: 'Yemen',
+                    body: 'A very excellent experience Quick to communicate and understand',
+                },
+                { 
+                    imgSrc: 'https://images.pexels.com/photos/5253574/pexels-photo-5253574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+                    name: 'neverlandqa',
+                    country: 'Qatar',
+                    body: 'Omar is amazing, a true professional. He responds in the fastest manner and provides high-level services indeed. I highly recommend him and will definitely work with him again. Thank you Omar!',
+                },
+                { 
+                    imgSrc: 'https://images.pexels.com/photos/5253574/pexels-photo-5253574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+                    name: 'Ali Kamal',
+                    country: 'Kuwait',
+                    body: 'Finished before deadline and smooth no mistakes at all. great working with Omar!',
+                },
+                { 
+                    imgSrc: 'https://images.pexels.com/photos/5253574/pexels-photo-5253574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+                    name: 'Alex James',
+                    country: 'Ireland',
+                    body: 'Great Service. Speedy initial reply and project was delivered quickly. Would use again!',
+                },
+            ]
+        }
+    }
+}
+</script>
 
 <style lang="scss">
 .card {
@@ -384,9 +309,31 @@
 
 .testimonial-box {
     @apply p-4 rounded;
-}
 
-.testimonial-head {
+    &:nth-child(1) {
+        @apply bg-violet-500 col-span-3;
+    }
+
+    &:nth-child(2) {
+        @apply bg-slate-700 col-span-2;
+    }
+
+    &:nth-child(3) {
+        @apply bg-slate-100 text-slate-800 col-span-2 row-span-2;
+    }
+
+    &:nth-child(4) {
+        @apply bg-slate-100 text-slate-900 col-span-2;
+    }
+
+    &:nth-child(5) {
+        @apply bg-slate-900 col-span-3;
+    }
+
+    .testimonial-head {
     @apply flex flex-row items-center;
 }
+}
+
+
 </style>
