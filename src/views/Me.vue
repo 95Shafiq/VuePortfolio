@@ -14,7 +14,9 @@
                 </div>
             </div>
         </div>
-        <div class="max-w-6xl mx-auto mt-24 mb-12 p-6 bg-black bg-opacity-90">
+        <div
+            class="max-w-6xl mx-auto mt-24 mb-12 p-6 bg-black bg-opacity-90 md:px-12"
+        >
             <router-view v-slot="{ Component, route }">
                 <transition
                     :enter-active-class="route.meta.enterClass"

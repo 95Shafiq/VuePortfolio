@@ -101,9 +101,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="lg:col-span-2 mt-6">
+                <div class="col-span-1 lg:col-span-2 mt-6">
                     <h2 class="resume-title">Out of the Field Experiences</h2>
-                    <div class="grid grid-cols-2">
+                    <div class="grid grid-cols-1 lg:grid-cols-2">
                         <div class="resume-item">
                             <span class="resume-header"
                                 >Freelancer @ NCIG-Netflix</span

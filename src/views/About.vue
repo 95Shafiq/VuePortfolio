@@ -321,23 +321,23 @@ export default {
     @apply p-4 rounded;
 
     &:nth-child(1) {
-        @apply bg-violet-500 col-span-3;
+        @apply bg-violet-500 md:col-span-2 lg:col-span-3;
     }
 
     &:nth-child(2) {
-        @apply bg-slate-700 col-span-2;
+        @apply bg-slate-700 lg:col-span-2;
     }
 
     &:nth-child(3) {
-        @apply bg-slate-100 text-slate-800 col-span-2 row-span-2;
+        @apply bg-slate-100 text-slate-800 md:row-span-2 lg:col-span-2 lg:row-span-2;
     }
 
     &:nth-child(4) {
-        @apply bg-slate-100 text-slate-900 col-span-2;
+        @apply bg-slate-100 text-slate-900 md:row-span-2 lg:col-span-2;
     }
 
     &:nth-child(5) {
-        @apply bg-slate-900 col-span-3;
+        @apply bg-slate-900 md:col-span-1 lg:col-span-3;
     }
 
     .testimonial-head {
