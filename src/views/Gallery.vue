@@ -8,13 +8,13 @@
                     All
                 </button>
                 <button class="gallery-btn" @click.prevent="appFilter">
-                    Coffee
+                    Native
                 </button>
                 <button class="gallery-btn" @click.prevent="webFilter">
-                    Burger
+                    Vue.JS
                 </button>
                 <button class="gallery-btn" @click.prevent="cardFilter">
-                    Pizza
+                    React.JS
                 </button>
             </div>
         </div>
@@ -25,150 +25,25 @@
                 v-if="app"
                 class="gallery-preview animate__animated animate__fadeIn"
             >
-                <span>Coffee</span
+                <span>Native</span
                 ><a href="https://www.scarlet-tm.com/" target="_blank"
-                    ><img src="https://files.catbox.moe/f0tbg4.jpg" alt=""
+                    ><img
+                        src="https://files.catbox.moe/f0tbg4.jpg"
+                        alt="Team Scarlet"
                 /></a>
             </div>
             <div
-                v-if="card"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Pizza</span
-                ><img
-                    src="https://image.freepik.com/free-photo/mixed-pizza-with-various-ingridients_140725-3790.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="app"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Coffee</span
-                ><img
-                    src="https://image.freepik.com/free-photo/top-view-coffee-accessories-table_23-2148336769.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
                 v-if="web"
                 class="gallery-preview animate__animated animate__fadeIn"
             >
-                <span>Burger</span
-                ><img
-                    src="https://image.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="app"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Coffee</span
-                ><img
-                    src="https://image.freepik.com/free-photo/coffee-beans-with-props-making-coffee_1220-4536.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="card"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Pizza</span
-                ><img
-                    src="https://image.freepik.com/free-photo/flat-lay-delicious-pizza-tray_23-2149235624.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="app"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Coffee</span
-                ><img
-                    src="https://image.freepik.com/free-photo/cup-coffee-with-pile-coffee-beans_1112-438.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="web"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Burger</span
-                ><img
-                    src="https://image.freepik.com/free-photo/side-view-double-cheeseburger-with-grilled-beef-patties-cheese-lettuce-leaf-burger-buns_141793-4883.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="card"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Pizza</span
-                ><img
-                    src="https://image.freepik.com/free-photo/pizza-with-salami-tomatoes-olives-cheese-dough-with-whole-wheat-flour-italian-food_2829-6855.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="app"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Coffee</span
-                ><img
-                    src="https://image.freepik.com/free-photo/close-up-hands-barista-make-latte-coffee-art-paint_1150-12161.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="web"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Burger</span
-                ><img
-                    src="https://image.freepik.com/free-photo/front-view-meat-burger-with-cheese-salad-tomatoes-dark-floor_140725-89524.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="app"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Coffee</span
-                ><img
-                    src="https://image.freepik.com/free-photo/top-view-coffee-cup-coffee-beans-dark-table_176474-560.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="web"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Burger</span
-                ><img
-                    src="https://image.freepik.com/free-photo/front-view-woman-eating-meat-burgers_141793-17491.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="app"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Coffee</span
-                ><img
-                    src="https://image.freepik.com/free-photo/cup-coffee-coffee-beans_164008-356.jpg?w=740"
-                    alt=""
-                />
-            </div>
-            <div
-                v-if="card"
-                class="gallery-preview animate__animated animate__fadeIn"
-            >
-                <span>Pizza</span
-                ><img
-                    src="https://image.freepik.com/free-photo/side-view-pizza-with-salami-ham-green-peppers-tomatoes-black-olives-cheese-table_141793-2996.jpg?w=740"
-                    alt=""
-                />
+                <span>Vue.JS</span
+                ><a
+                    href="https://95shafiq.github.io/MonsterSlayer/"
+                    target="_blank"
+                    ><img
+                        src="https://files.catbox.moe/i89pdp.png"
+                        alt="Monster Slayer"
+                /></a>
             </div>
         </div>
     </div>

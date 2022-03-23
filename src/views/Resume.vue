@@ -197,7 +197,7 @@
                             </p>
                             <ul class="list-disc ml-5">
                                 <li>
-                                    I've assigned the task of transcribing and
+                                    I was assigned the task of transcribing and
                                     translating more than a couple of Japanese
                                     animated series (Anime), and deliver it in
                                     the best way possible to the audience to
