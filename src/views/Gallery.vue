@@ -51,7 +51,7 @@
             >
                 <span>Vue.JS</span
                 ><a
-                    href="https://95shafiq.github.io/MonsterSlayer/"
+                    href="https://omnifood-95s.netlify.app/"
                     target="_blank"
                     ><img
                         src="https://files.catbox.moe/t7abyg.png"
@@ -64,7 +64,7 @@
             >
                 <span>Vue.JS</span
                 ><a
-                    href="https://95shafiq.github.io/MonsterSlayer/"
+                    href="https://media-stones.netlify.app/"
                     target="_blank"
                     ><img
                         src="https://files.catbox.moe/du5k3q.png"
