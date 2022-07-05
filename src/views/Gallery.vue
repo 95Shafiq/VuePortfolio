@@ -45,6 +45,32 @@
                         alt="Monster Slayer"
                 /></a>
             </div>
+            <div
+                v-if="app"
+                class="gallery-preview animate__animated animate__fadeIn"
+            >
+                <span>Vue.JS</span
+                ><a
+                    href="https://95shafiq.github.io/MonsterSlayer/"
+                    target="_blank"
+                    ><img
+                        src="https://files.catbox.moe/t7abyg.png"
+                        alt="Omnifood"
+                /></a>
+            </div>
+            <div
+                v-if="app"
+                class="gallery-preview animate__animated animate__fadeIn"
+            >
+                <span>Vue.JS</span
+                ><a
+                    href="https://95shafiq.github.io/MonsterSlayer/"
+                    target="_blank"
+                    ><img
+                        src="https://files.catbox.moe/du5k3q.png"
+                        alt="Media Stones"
+                /></a>
+            </div>
         </div>
     </div>
 </template>
